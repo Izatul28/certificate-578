@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav id="navbar">
+    <header>Web Development Docs</header>
+    <a class="nav-link" href="#HTML">HTML</a>
+    <a class="nav-link" href="#CSS">CSS</a>
+    <a class="nav-link" href="#JavaScript">JavaScript</a>
+    <a class="nav-link" href="#React">React</a>
+    <a class="nav-link" href="#APIs">APIs</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="HTML">
+      <header>HTML</header>
+      <p>HTML stands for HyperText Markup Language.</p>
+      <p>It is used to structure web content.</p>
+      <p>HTML consists of elements used to enclose different parts of content.</p>
+      <p>Each element has opening and closing tags.</p>
+      <p>Tags can have attributes to define additional information.</p>
+      <code>&lt;div&gt;Content&lt;/div&gt;</code>
+      <code>&lt;a href="url"&gt;Link&lt;/a&gt;</code>
+      <ul>
+        <li>Headings</li>
+        <li>Paragraphs</li>
+        <li>Links</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="CSS">
+      <header>CSS</header>
+      <p>CSS stands for Cascading Style Sheets.</p>
+      <p>It is used to style HTML elements.</p>
+      <p>CSS can be written inline, internally, or externally.</p>
+      <p>Selectors target specific HTML elements.</p>
+      <p>Properties define the styles applied to the elements.</p>
+      <code>body { background-color: white; }</code>
+      <code>p { color: black; }</code>
+      <ul>
+        <li>Classes</li>
+        <li>IDs</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="JavaScript">
+      <header>JavaScript</header>
+      <p>JavaScript is a scripting language for the web.</p>
+      <p>It enables interactive web pages.</p>
+      <p>JavaScript can manipulate the DOM.</p>
+      <p>It supports event-driven programming.</p>
+      <p>Variables can be defined using var, let, or const.</p>
+      <code>let x = 10;</code>
+      <code>document.getElementById("demo").innerText = x;</code>
+      <ul>
+        <li>Events</li>
+        <li>Functions</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="React">
+      <header>React</header>
+      <p>React is a JavaScript library for building UIs.</p>
+      <p>It uses components to create reusable UI elements.</p>
+      <p>JSX is a syntax extension used with React.</p>
+      <p>React uses a virtual DOM for performance.</p>
+      <p>Hooks are used for managing state and side effects.</p>
+      <code>function App() { return &lt;h1&gt;Hello&lt;/h1&gt;; }</code>
+      <code>useEffect(() => {}, []);</code>
+      <ul>
+        <li>Components</li>
+        <li>Props</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="APIs">
+      <header>APIs</header>
+      <p>API stands for Application Programming Interface.</p>
+      <p>It allows software systems to communicate.</p>
+      <p>RESTful APIs are commonly used in web apps.</p>
+      <p>JSON is a common data format used with APIs.</p>
+      <p>APIs can be public or private.</p>
+      <code>fetch('https://api.example.com/data')</code>
+      <code>.then(response => response.json())</code>
+      <ul>
+        <li>GET</li>
+        <li>POST</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
